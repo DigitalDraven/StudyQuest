@@ -1,58 +1,70 @@
-# Study Quest — ChatGPT Image Import Template v1.0
+# Study Quest — ChatGPT Image Import Template v1.2
 
 You are converting one or more photographs/screenshots of a child's school practice test into a Study Quest deck.
 
 ## Instructions
-1. Read ALL attached images before producing output. They are pages of the same test unless the user says otherwise.
-2. Preserve the original question meaning. Do not invent missing questions or answers.
-3. Extract every study-worthy question you can identify.
-4. For multiple-choice questions, preserve ALL choices and identify the correct answer.
-5. For matching questions, create `type: "matching"` and preserve every correct pair in `pairs`.
-6. For written-answer questions, create `type: "written"` and give the expected/correct answer. If the worksheet supplies an answer, use it. If the answer is not shown, provide the most defensible answer from the question and clearly flag uncertainty in `notes`.
+1. Read **ALL attached images** before producing output. They are pages of the same test unless the user says otherwise.
+2. Preserve the original question meaning. Do not invent missing questions, choices, or source answers.
+3. Extract every study-worthy question you can identify, in the original order when possible.
+4. For multiple-choice questions, preserve **ALL choices** and identify the correct answer.
+5. For matching questions, use `type: "matching"` and preserve every correct pair in `pairs`. Do not put "See pairs" in `answer`; the pairs are the answer.
+6. For written-answer questions, use `type: "written"`. If a correct answer is printed on the worksheet or answer key, preserve it faithfully. If a student's handwritten answer is present, identify it as the student's answer. If no answer is supplied and you must infer one from the question/material, do so only when reasonably clear and mark the source as `inferred`.
 7. Use `true_false` for true/false questions.
-8. If a question is unreadable or genuinely ambiguous, include it but add a concise `notes` field explaining what needs parent review.
-9. Do not include student handwriting as the correct answer unless it is clearly the teacher-provided answer key. The goal is to create study material from the practice test.
-10. Return ONLY valid JSON. No Markdown fences. No commentary before or after the JSON.
+8. If a question is unreadable or genuinely ambiguous, include it when possible and explain the uncertainty in `notes` rather than inventing details.
+9. Do not grade the student's handwritten answer unless the source provides enough information to do so reliably.
+10. Return **only valid JSON**. Do not wrap it in Markdown fences and do not add commentary before or after the JSON.
+11. Use the following `answer_source` values:
+   - `source` = answer is explicitly present in the supplied worksheet/source material
+   - `student` = answer is the student's handwritten response
+   - `teacher_key` = answer is explicitly supplied by a teacher/answer key
+   - `inferred` = answer was inferred from the question/material rather than explicitly supplied
+   - `unknown` = source cannot be determined
+12. For inferred answers, add a short `notes` value explaining that the answer was inferred.
 
-## Required output format
+## Output schema
 {
   "format": "StudyCards",
   "version": "1.0",
-  "title": "Short descriptive deck title",
-  "subject": "Science",
+  "title": "string",
+  "subject": "string",
   "cards": [
     {
       "type": "multiple_choice",
-      "question": "Question text",
-      "choices": ["Choice A", "Choice B", "Choice C", "Choice D"],
-      "answer": "Correct choice text",
-      "notes": "Optional uncertainty note"
-    },
-    {
-      "type": "written",
-      "question": "Question text",
-      "answer": "Expected answer",
-      "notes": "Optional uncertainty note"
+      "question": "string",
+      "choices": ["string", "string"],
+      "answer": "string",
+      "answer_source": "source | student | teacher_key | inferred | unknown",
+      "notes": "string"
     },
     {
       "type": "matching",
-      "question": "Match each item with its correct answer.",
+      "question": "string",
       "pairs": [
-        {"left": "Item", "right": "Answer"}
+        {"left": "string", "right": "string"}
       ],
-      "answer": "See pairs",
-      "notes": "Optional uncertainty note"
+      "answer_source": "source | student | teacher_key | inferred | unknown",
+      "notes": "string"
+    },
+    {
+      "type": "written",
+      "question": "string",
+      "answer": "string",
+      "answer_source": "source | student | teacher_key | inferred | unknown",
+      "notes": "string"
     },
     {
       "type": "true_false",
-      "question": "Statement",
-      "answer": "True"
+      "question": "string",
+      "answer": "True | False",
+      "answer_source": "source | student | teacher_key | inferred | unknown",
+      "notes": "string"
     }
   ]
 }
 
-## Important
-- Do not output anything except the JSON object.
-- Keep all multiple-choice choices even though Study Quest's default flashcard view only shows the correct answer after reveal.
-- If several images are attached, combine them into one deck in page order.
-- Do not duplicate a question that appears across images.
+## Final checks before responding
+- Confirm every attached page was read.
+- Preserve every useful multiple-choice option.
+- Confirm matching questions contain the actual pairs.
+- Do not silently turn an inferred answer into a source answer.
+- Return JSON only.

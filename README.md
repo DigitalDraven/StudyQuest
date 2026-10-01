@@ -1,33 +1,38 @@
-# Study Quest v1.0
+# Study Quest v1.2
 
-A no-API, client-side flashcard web app for turning school practice tests into study decks.
+A no-API, client-side flashcard web app for turning school practice-test photos into study decks using ChatGPT as the image-understanding/import assistant.
 
 ## Architecture
-- GitHub Pages/static hosting compatible
+
+- GitHub Pages / static hosting compatible
 - No backend
 - No API keys
 - ChatGPT handles image understanding using `templates/chatgpt-import-template.md`
-- Study Quest imports the resulting `StudyCards 1.0` JSON
-- Decks are stored locally in the browser with localStorage
-- GSAP is used for UI entrance animation; the core app is dependency-light
+- Study Quest imports the resulting StudyCards 1.0 JSON
+- Decks and progress are stored locally in the browser
+- Decks can be exported as portable `.studyquest.json` files and imported on another computer or iPad
+- GSAP is used for UI animation; the core app remains dependency-light
 
-## Use
-1. Host this folder on GitHub Pages or any static web host.
-2. Open `templates/chatgpt-import-template.md` and give it to ChatGPT with one or more practice-test images.
-3. Ask ChatGPT to return only valid JSON using the template.
-4. Save the response as `something.json`.
-5. In Study Quest choose **New Deck → Import StudyCards**.
-6. Validate/edit the extracted questions and answers.
-7. Save & Study.
+## V1.2 workflow
 
-## Important privacy note
-The app itself does not upload images or decks anywhere. ChatGPT receives the images when the parent chooses to attach them to the ChatGPT conversation.
+1. Photograph every page of a practice test.
+2. Open **New Deck** and copy the ChatGPT import template.
+3. Start a ChatGPT conversation, attach one or more test images, and paste the template.
+4. Ask ChatGPT to return the JSON exactly as instructed.
+5. Paste the JSON into Study Quest.
+6. Use **Validation Review** to scan the compact card list and expand any card that needs editing.
+7. Save & Study, or export the deck for backup/transfer.
 
-## Roadmap
-- IndexedDB instead of localStorage for larger decks
-- PWA/offline install
-- richer matching-card UI
-- practice-test mode using the preserved multiple-choice options
-- missed-card persistence across sessions
-- sound/haptics and richer GSAP transitions
-- optional Three.js scene as an ambient visual layer
+## Study modes
+
+- **Study Mode:** question first, then reveal the answer. Multiple-choice options are intentionally hidden during normal flashcard practice.
+- **Quiz Mode:** multiple-choice questions can be answered directly; written questions accept typed answers; matching questions can be self-checked.
+- **Review Missed:** after a session, Study Quest can immediately run the cards marked for review.
+
+## Portable decks
+
+Use **Export Deck** during Validation Review to save a `.studyquest.json` file. On another device, use **New Deck → Advanced → import a saved StudyCards JSON file**.
+
+## Privacy
+
+Practice-test images remain in the user's ChatGPT conversation. Study Quest only receives the structured JSON the user chooses to paste/import. Decks remain in the browser's local storage unless the user exports them.
