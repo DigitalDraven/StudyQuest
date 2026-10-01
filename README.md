@@ -1,4 +1,4 @@
-# Study Quest v1.2.2
+# Study Quest v1.3.0
 
 A no-API, client-side flashcard web app for turning school practice-test photos into study decks using ChatGPT as the image-understanding/import assistant.
 
@@ -36,3 +36,13 @@ Use **Export Deck** during Validation Review to save a `.studyquest.json` file. 
 ## Privacy
 
 Practice-test images remain in the user's ChatGPT conversation. Study Quest only receives the structured JSON the user chooses to paste/import. Decks remain in the browser's local storage unless the user exports them.
+
+
+## v1.3.0
+
+- Interactive matching Quiz Mode with randomized dropdown choices.
+- Immediate quiz feedback before advancing.
+- Dedicated Review Missed flow and persistent missed-card progress.
+- Delete Deck with explicit confirmation.
+- Study/Quiz question state is reset cleanly between cards.
+- StudyCards format remains v1.2; app version is v1.3.0.
