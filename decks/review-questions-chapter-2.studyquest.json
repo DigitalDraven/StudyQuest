@@ -1,0 +1,137 @@
+{
+  "format": "StudyCards",
+  "version": "1.2",
+  "title": "Review Questions Chapter 2",
+  "subject": "History",
+  "cards": [
+    {
+      "type": "multiple_choice",
+      "question": "Scientists learn about early Indian tribes through ________ or objects from the past.",
+      "choices": [
+        "Shells and pots",
+        "Artifacts",
+        "Stories"
+      ],
+      "answer": "Artifacts",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Most California Tribes had their own ways of speaking, acting, and dressing, also called:",
+      "choices": [
+        "Dialect",
+        "Traditions",
+        "Culture"
+      ],
+      "answer": "Culture",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "matching",
+      "question": "Match the tribe with their main resources:",
+      "choices": [],
+      "answer": "",
+      "pairs": [
+        {
+          "left": "Yurok",
+          "right": "Salmon"
+        },
+        {
+          "left": "Chumash",
+          "right": "Tar"
+        },
+        {
+          "left": "Tribes of the north coastal region",
+          "right": "Trees and rivers"
+        }
+      ],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "When did the early people first reach California?",
+      "choices": [
+        "50 years ago",
+        "13,000 years ago",
+        "Between 7,000 and 9,000 years ago"
+      ],
+      "answer": "13,000 years ago",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Scientist think that the first people to come to California did it by using:",
+      "choices": [
+        "Floating pieces of ice",
+        "Wagons",
+        "Building a bridge with stones",
+        "A land bridge during the ice age."
+      ],
+      "answer": "A land bridge during the ice age.",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Games were important for the Miwok and other tribes because they taught the children:",
+      "choices": [
+        "How to count",
+        "To play nice with others",
+        "Skills necessary to survive",
+        "How to have fun"
+      ],
+      "answer": "Skills necessary to survive",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What does specialize mean?",
+      "choices": [
+        "To work together for the good of the group.",
+        "To work at one kind of job and learn to do it well.",
+        "To sell and buy resources from other tribes."
+      ],
+      "answer": "To work at one kind of job and learn to do it well.",
+      "pairs": [],
+      "answer_source": "source",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Why was storytelling a big part of the lives of California Indian tribes?",
+      "choices": [],
+      "answer": "By telling stories they passed down their traditions, and culture and trained youth how to do the necessary work.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What role did trade play in the lives of California tribes?",
+      "choices": [],
+      "answer": "Trading was a way to obtain the resources that they did not have where they lived.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "How did early people in North America adapt their way of life when large animals died out?",
+      "choices": [],
+      "answer": "They started hunting smaller animals, gathering berries and nuts, fishing, some tribes learned to 'farm.'",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    }
+  ]
+}
