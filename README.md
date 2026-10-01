@@ -1,5 +1,4 @@
-# Study Quest v1.3.0
-https://digitaldraven.github.io/StudyQuest/
+# Study Quest v1.3.1
 
 A no-API, client-side flashcard web app for turning school practice-test photos into study decks using ChatGPT as the image-understanding/import assistant.
 
@@ -39,11 +38,21 @@ Use **Export Deck** during Validation Review to save a `.studyquest.json` file. 
 Practice-test images remain in the user's ChatGPT conversation. Study Quest only receives the structured JSON the user chooses to paste/import. Decks remain in the browser's local storage unless the user exports them.
 
 
-## v1.3.0
+## v1.3.1
 
 - Interactive matching Quiz Mode with randomized dropdown choices.
 - Immediate quiz feedback before advancing.
 - Dedicated Review Missed flow and persistent missed-card progress.
 - Delete Deck with explicit confirmation.
 - Study/Quiz question state is reset cleanly between cards.
-- StudyCards format remains v1.2; app version is v1.3.0.
+- StudyCards format remains v1.2; app version is v1.3.1.
+
+
+## Shareable Decks
+
+Study Quest supports two deck export paths:
+
+- **Export Deck** — personal backup that includes saved study progress and validation notes.
+- **Export Shareable Deck** — creates a clean `.studyquest.json` containing learning content and validation metadata, without personal study progress, session history, or validation notes.
+
+Shareable decks can be placed in the repository's `decks/` directory for the curated shared deck library. Review a shareable JSON before publishing it, and never publish student names, school information, private notes, or other identifying information.
