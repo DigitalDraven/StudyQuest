@@ -5,26 +5,28 @@ You are converting one or more photographs/screenshots of a child's school pract
 ## Instructions
 1. Read **ALL attached images** before producing output. They are pages of the same test unless the user says otherwise.
 2. Preserve the original question meaning. Do not invent missing questions, choices, or source answers.
-3. Extract every study-worthy question you can identify, in the original order when possible.
-4. For multiple-choice questions, preserve **ALL choices** and identify the correct answer.
-5. For matching questions, use `type: "matching"` and preserve every correct pair in `pairs`. Do not put "See pairs" in `answer`; the pairs are the answer.
-6. For written-answer questions, use `type: "written"`. If a correct answer is printed on the worksheet or answer key, preserve it faithfully. If a student's handwritten answer is present, identify it as the student's answer. If no answer is supplied and you must infer one from the question/material, do so only when reasonably clear and mark the source as `inferred`.
-7. Use `true_false` for true/false questions.
-8. If a question is unreadable or genuinely ambiguous, include it when possible and explain the uncertainty in `notes` rather than inventing details.
-9. Do not grade the student's handwritten answer unless the source provides enough information to do so reliably.
-10. Return **only valid JSON**. Do not wrap it in Markdown fences and do not add commentary before or after the JSON.
-11. Use the following `answer_source` values:
+3. If the worksheet or test has a title, preserve that title exactly. Do not shorten, paraphrase, or rename it. Only create a title when no source title is visible.
+4. Extract every study-worthy question you can identify, in the original order when possible.
+5. For multiple-choice questions, preserve **ALL choices** and identify the correct answer.
+6. For matching questions, use `type: "matching"` and preserve every correct pair in `pairs`. Do not put "See pairs" in `answer`; the pairs are the answer.
+7. For written-answer questions, use `type: "written"`. If a correct answer is printed on the worksheet or answer key, preserve it faithfully. If a student's handwritten answer is present, identify it as the student's answer. If no answer is supplied and you must infer one from the question/material, do so only when reasonably clear and mark the source as `inferred`.
+8. Use `true_false` for true/false questions.
+9. If a question is unreadable or genuinely ambiguous, include it when possible and explain the uncertainty in `notes` rather than inventing details.
+10. Do not grade the student's handwritten answer unless the source provides enough information to do so reliably.
+11. Return **only valid JSON**. Do not wrap it in Markdown fences and do not add commentary before or after the JSON.
+12. Use the following `answer_source` values:
    - `source` = answer is explicitly present in the supplied worksheet/source material
    - `student` = answer is the student's handwritten response
    - `teacher_key` = answer is explicitly supplied by a teacher/answer key
    - `inferred` = answer was inferred from the question/material rather than explicitly supplied
    - `unknown` = source cannot be determined
-12. For inferred answers, add a short `notes` value explaining that the answer was inferred.
+13. Set `verification` to `needs_review` for every newly extracted card. Do not mark imported material as verified; the parent/user verifies it in Study Quest.
+14. For inferred answers, add a short `notes` value explaining that the answer was inferred.
 
 ## Output schema
 {
   "format": "StudyCards",
-  "version": "1.0",
+  "version": "1.2",
   "title": "string",
   "subject": "string",
   "cards": [
@@ -34,6 +36,7 @@ You are converting one or more photographs/screenshots of a child's school pract
       "choices": ["string", "string"],
       "answer": "string",
       "answer_source": "source | student | teacher_key | inferred | unknown",
+      "verification": "needs_review",
       "notes": "string"
     },
     {
@@ -43,6 +46,7 @@ You are converting one or more photographs/screenshots of a child's school pract
         {"left": "string", "right": "string"}
       ],
       "answer_source": "source | student | teacher_key | inferred | unknown",
+      "verification": "needs_review",
       "notes": "string"
     },
     {
@@ -50,6 +54,7 @@ You are converting one or more photographs/screenshots of a child's school pract
       "question": "string",
       "answer": "string",
       "answer_source": "source | student | teacher_key | inferred | unknown",
+      "verification": "needs_review",
       "notes": "string"
     },
     {
@@ -57,6 +62,7 @@ You are converting one or more photographs/screenshots of a child's school pract
       "question": "string",
       "answer": "True | False",
       "answer_source": "source | student | teacher_key | inferred | unknown",
+      "verification": "needs_review",
       "notes": "string"
     }
   ]

@@ -1,4 +1,4 @@
-# Study Quest v1.2
+# Study Quest v1.2.1
 
 A no-API, client-side flashcard web app for turning school practice-test photos into study decks using ChatGPT as the image-understanding/import assistant.
 
