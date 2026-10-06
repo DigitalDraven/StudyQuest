@@ -1,0 +1,120 @@
+{
+  "format": "StudyCards",
+  "version": "1.2",
+  "title": "Sam 3",
+  "subject": "Science 4",
+  "cards": [
+    {
+      "type": "written",
+      "question": "What does REPRODUCE mean?",
+      "choices": [],
+      "answer": "Make more of the same kind.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a FLOWER?",
+      "choices": [],
+      "answer": "Part of the plant that makes the seeds.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What are PETALS?",
+      "choices": [],
+      "answer": "Most colorful part of a flower.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a STAMEN?",
+      "choices": [],
+      "answer": "Thin stalk with a knob-like structure at its top.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is POLLEN?",
+      "choices": [],
+      "answer": "Tiny dustlike grains needed for the plants to reproduce.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a PISTIL?",
+      "choices": [],
+      "answer": "Part of a flower that receives the pollen, often sticky, helps trap pollen that lands on it.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is POLLINATION?",
+      "choices": [],
+      "answer": "The transfer of pollen to the pistil is called pollination.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is SELF-POLLINATION?",
+      "choices": [],
+      "answer": "Usually pollen is transferred from one plant to another plant, by wind, or by animals like a butterfly and bee.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What are some ways flowers can be pollinated?",
+      "choices": [],
+      "answer": "They can be pollinated by bees, wasps, yellow jackets, bumble bees, and butterflies.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a fruit?",
+      "choices": [],
+      "answer": "A food you can eat that can be sweet or sour.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "matching",
+      "question": "Match each definition to the correct part of a flower.",
+      "choices": [],
+      "answer": "",
+      "pairs": [
+        {
+          "left": "The colorful part of a flower",
+          "right": "Petals"
+        },
+        {
+          "left": "The part of a flower that has pollen",
+          "right": "Stamens"
+        },
+        {
+          "left": "The part of a flower that receives pollen",
+          "right": "Pistil"
+        }
+      ],
+      "answer_source": "student",
+      "verification": "needs_review"
+    }
+  ]
+}
