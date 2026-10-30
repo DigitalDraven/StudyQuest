@@ -1,0 +1,393 @@
+{
+  "format": "StudyCards",
+  "version": "1.2",
+  "title": "Study Guide",
+  "subject": "Science 4 - Force, Distance, Work, and Simple Machines",
+  "cards": [
+    {
+      "type": "matching",
+      "question": "Match each definition with its term.",
+      "choices": [],
+      "answer": "",
+      "pairs": [
+        {
+          "left": "The force that pulls objects toward the earth",
+          "right": "Gravity"
+        },
+        {
+          "left": "The force that resists the movement of objects against each other",
+          "right": "Friction"
+        },
+        {
+          "left": "The ability to do work",
+          "right": "Energy"
+        },
+        {
+          "left": "Done when a force moves an object over a distance",
+          "right": "Work"
+        },
+        {
+          "left": "A change in position",
+          "right": "Motion"
+        },
+        {
+          "left": "A push or a pull",
+          "right": "Force"
+        }
+      ],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What are two forces we experience every day?",
+      "choices": [],
+      "answer": "Gravity and friction.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "An object that makes work easier is called what?",
+      "choices": [],
+      "answer": "A machine.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "The amount of work you do depends on how much of what you use to move an object?",
+      "choices": [],
+      "answer": "Force.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What does a greater mass require to move it?",
+      "choices": [],
+      "answer": "Greater force.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "The force applied to cause a simple machine to do work is called what?",
+      "choices": [],
+      "answer": "Effort.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is the weight of the object being moved called?",
+      "choices": [],
+      "answer": "The load.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Name six simple machines.",
+      "choices": [],
+      "answer": "Wheel and axle, inclined plane, screw, pulley, wedge, and lever.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "A bar that turns on a point is called what?",
+      "choices": [],
+      "answer": "A lever.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is the point that a lever turns on called?",
+      "choices": [],
+      "answer": "The fulcrum.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What determines the amount of effort needed on a lever?",
+      "choices": [],
+      "answer": "The distance between the effort and the fulcrum.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Describe the parts of a first-class lever.",
+      "choices": [],
+      "answer": "A lever with the fulcrum is between the load and the effort.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "In which picture does the boy need to apply a greater force to move the merry-go-round?",
+      "choices": [],
+      "answer": "The picture with three children, two on the merry-go-round, and one two push.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Sasha pushed her crayon box across the table to Katy. Did Sasha do any work?",
+      "choices": [],
+      "answer": "Yes. She used force to push the box over a distance.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Josh pulled hard on a wagon full of wood, but the wagon did not move. Did Josh do any work?",
+      "choices": [],
+      "answer": "No. The wagon did not move.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Jenna needs to carry two boxes of science supplies to the storage closet. One box holds cotton balls. The other box has wooden rulers in it. Will Jenna do more work when she carries the cotton balls or the rulers?",
+      "choices": [],
+      "answer": "The rulers. The load is heavier and she needs to use more force.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a knife.",
+      "choices": [],
+      "answer": "Wedge/Lever",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a well with a rope and pulley.",
+      "choices": [],
+      "answer": "Pulley.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a screw.",
+      "choices": [],
+      "answer": "Screw.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a ramp.",
+      "choices": [],
+      "answer": "Inclined plane.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a wagon wheel.",
+      "choices": [],
+      "answer": "Wheel and axle.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "Identify the simple machine shown by a rake.",
+      "choices": [],
+      "answer": "Lever.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "When does work happen?",
+      "choices": [],
+      "answer": "When a force moves an object over a distance.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What does gravity do to an object?",
+      "choices": [],
+      "answer": "Gravity pulls on an object and gives it weight.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a lever?",
+      "choices": [],
+      "answer": "A bar that turns on a point.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a fulcrum?",
+      "choices": [],
+      "answer": "The point that a lever turns on.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a first-class lever?",
+      "choices": [],
+      "answer": "A lever with the fulcrum between the load and the effort.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What are examples of tools that can work as levers?",
+      "choices": [],
+      "answer": "A paint can opener and the claw of some hammers.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a second-class lever?",
+      "choices": [],
+      "answer": "A lever with the load between the fulcrum and the effort.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a third-class lever?",
+      "choices": [],
+      "answer": "A lever with the effort between the fulcrum and the load.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What are examples of third-class levers?",
+      "choices": [],
+      "answer": "Sweep is a third class lever along with a fishing pole, scissors, tweezers, and pliers.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is force?",
+      "choices": [],
+      "answer": "A push or a pull.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is gravity?",
+      "choices": [],
+      "answer": "The force that pulls all objects toward the earth.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is friction?",
+      "choices": [],
+      "answer": "The force that resists the movement of objects against each other.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is motion?",
+      "choices": [],
+      "answer": "A change in position.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is work?",
+      "choices": [],
+      "answer": "Work is done when a force moves an object over a distance.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is energy?",
+      "choices": [],
+      "answer": "The ability to do work.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a machine?",
+      "choices": [],
+      "answer": "An object that makes work easier.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is effort?",
+      "choices": [],
+      "answer": "Effort does not always reduce the amount of force needed to do work. It may change the direction of the force.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    },
+    {
+      "type": "written",
+      "question": "What is a load?",
+      "choices": [],
+      "answer": "The weight of the object being moved.",
+      "pairs": [],
+      "answer_source": "student",
+      "verification": "needs_review"
+    }
+  ]
+}
